@@ -39,7 +39,8 @@ const ContactForm = ({ onSubmit, initialData }: ContactFormProps) => {
         setFormData(prev => ({ ...prev, [field]: value }));
     };
 
-    const isValid = formData.firstName.trim() && formData.lastName.trim();
+    const isValid =
+        formData.firstName.trim() !== '' && formData.lastName.trim() !== '';
 
     return (
         <form onSubmit={handleSubmit} className="space-y-6">
