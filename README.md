@@ -39,4 +39,10 @@ npm install
 npm run dev
 ```
 
-L'application est maintenant prête.
+## 🧪 Tests
+
+Les tests unitaires sont écrits avec [Vitest](https://vitest.dev/).
+
+```bash
+npm test
+```
