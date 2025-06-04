@@ -13,7 +13,7 @@ const ContactCard = ({ contact, onEdit, onDelete }: ContactCardProps) => {
     const initials = `${contact.firstName.charAt(0)}${contact.lastName.charAt(0)}`.toUpperCase();
 
     return (
-        <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-white border-0 shadow-md">
+        <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-white border-0 shadow-md animate-fade-in">
             <CardContent className="p-6">
                 {/* Avatar et nom */}
                 <div className="text-center mb-4">
@@ -83,3 +83,4 @@ const ContactCard = ({ contact, onEdit, onDelete }: ContactCardProps) => {
 };
 
 export default ContactCard;
+
