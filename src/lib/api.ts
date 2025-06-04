@@ -35,7 +35,7 @@ export async function addContactAPI(contact: Omit<Contact, "id">): Promise<void>
 }
 
 export async function deleteContactAPI(id: string): Promise<void> {
-  await api.delete(`${id}`);
+  await api.delete(`/${id}`);
 }
 
 export async function updateContactAPI(id: string, contact: Omit<Contact, "id">): Promise<void> {
@@ -47,5 +47,5 @@ export async function updateContactAPI(id: string, contact: Omit<Contact, "id">)
     societeContact: contact.company,
     photoContact: contact.avatar,
   };
-  await api.put(`${id}`, payload);
+  await api.put(`/${id}`, payload);
 }
