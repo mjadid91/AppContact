@@ -49,10 +49,11 @@ const Index = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-sky-100">
             <div className="container mx-auto px-4 py-8">
                 {/* Header */}
                 <div className="mb-8">
+                    <img src="/logo.svg" alt="Logo" className="w-24 h-24 mx-auto mb-4" />
                     <h1 className="text-center text-5xl font-bold text-gray-900 mb-2">Mes Contacts</h1>
                     <p className="text-center text-gray-600">Gérez facilement vos contacts professionnels et personnels</p>
                 </div>

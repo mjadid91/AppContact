@@ -83,3 +83,4 @@ const ContactCard = ({ contact, onEdit, onDelete }: ContactCardProps) => {
 };
 
 export default ContactCard;
+

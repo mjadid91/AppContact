@@ -46,3 +46,5 @@ Les tests unitaires sont écrits avec [Vitest](https://vitest.dev/).
 ```bash
 npm test
 ```
+
+Pour exécuter `npm test` et `npm run lint`, assurez-vous d'avoir installé les dépendances de développement `vitest` et `@eslint/js`.
