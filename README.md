@@ -37,3 +37,6 @@ npm install
 
 # Lancer l'application
 npm run dev
+```
+
+L'application est maintenant prête.
